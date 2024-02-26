@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chris Rook - Software Developer</title>
+    <link rel="stylesheet" href="/StyleSheets/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <script
+      src="https://kit.fontawesome.com/49ff95736c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="nav-container">
+      <nav>
+        <div class="logo-container">
+          <a href="#header">
+            <img src="/images/Rook.svg" alt="Rook Logo" class="logo" />
+            <h1>CHRIS ROOK</h1>
+          </a>
+        </div>
+        <ul id="side-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+      </nav>
+    </div>
+    <div id="header">
+      <div class="header-text">
+        <span>HELLO!</span>
+        <h1>I'm <span>Chris Rook</span></h1>
+        <h2>A Software Developer</h2>
+        <p>
+          <a href="/images/FSResumeFeb2024.pdf" download class="resume-button"
+            >My Resume</a
+          >
+          <a href="#projects" class="button">My Work</a>
+        </p>
+      </div>
+    </div>
+    <!----------- About Section ---------->
+    <div id="about">
+      <h1 class="sub-title ">About Me</h1>
+      <div class="about-container">
+        <div class="about-col-1">
+          <img src="/images/Connect.png" alt="placeholder image" />
+        </div>
+        <div class="about-col-2">
+          <p>
+            Hello, I'm Chris Rook, a Software Developer proudly based in the
+            lively Southbay of Los Angeles. <br /><br />
+            Guided by an insatiable thirst for knowledge and energized by the
+            satisfaction of solving intricate challenges, I discovered my
+            passion for the world of Software Development. <br /><br />
+            Before diving into the realm of coding, my journey led me to the
+            skies as an Aviation Electronics Technician in the Navy, where I was
+            entrusted with the task of flying and maintaining unmanned aircraft.
+            <br /><br />
+            It was during this time that I encountered a fascinating connection
+            between software and aviation. While preparing these aircraft for
+            flight, I delved into the intricacies of inputting crucial
+            configuration parameters into the flight software. <br /><br />
+            My inquisitive nature led me deeper, and I caught a glimpse of the
+            source code that used these parameters to precisely position the
+            control surfaces, ensuring stable flight. It was a revelation that
+            sparked my enduring passion for crafting dependable and consistent
+            software solutions that others can rely on.<br />
+          </p>
+          <ul class="about-info">
+            <li class="about-info-item">
+              <span>Name:</span> <span>Chris Rook</span>
+            </li>
+            <li class="about-info-item">
+              <span>Location:</span> <span>Redondo Beach, CA 90277</span>
+            </li>
+            <li class="about-info-item">
+              <span>Email:</span> <span>crookplusplus@gmail.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!----------- Resume Section ---------->
+    <div id="resume">
+      <div class="resume-container">
+        <div class="resume-header">
+          <h1 class="sub-title">Resume</h1>
+          <p class="hire-me-please">
+            I am a Recent College Graduate who is looking for work as a Software
+            Developer!
+          </p>
+        </div>
+        <div class="timeline">
+          <div class="exp-chapter">
+            <span class="date">JAN 2020-AUG-2023</span>
+            <h2>B.S. Computer Science</h2>
+            <span class="position">San Diego State University </span>
+            <p>
+              GPA: 3.74 Graduated Cum Laude <br />
+              Academic courses coded primarily in C++, Python, Java, R, SQL and
+              Matlab. <br />
+              <u>Relevant coursework:</u> Data Structures and Algorithms,
+              Computer Architecture, Machine Learning, Computer Vision,
+              Operating Systems, Computer Security, Database Theory and
+              Implementation, Linear Algebra, Discrete Mathematics, Applied
+              Statistics, Physics with Honors
+            </p>
+          </div>
+          <div class="exp-chapter">
+            <span class="date">DEC 2018-DEC 2019</span>
+            <h2>Unmanned Aerial Vehicle Maintenance Lead / Operator</h2>
+            <span class="position">U.S. Navy (Reserve/Deployed)</span>
+            <p>
+              Responsible for the timely repair and readiness of 20 ScanEagle
+              Aircraft and $23M worth of support equipment. Flew for a total of
+              298 flight hours and led the first CENTCOM transition from the
+              Analog ScanEagle to the Digital ScanEagle.
+            </p>
+          </div>
+          <div class="exp-chapter">
+            <span class="date">AUG 2016-MAY 2018</span>
+            <h2>Full-time Student / Navy Reservist</h2>
+            <span class="position">Grossmont College / U.S. Navy</span>
+            <p>
+              Transitioned from Active Duty to Student to pursue a new career.
+              During this time I maintained a 4.0 GPA. My most notable
+              achievement during this period was completing Honors Physics where
+              I simulated the effect of Earth's rotation on ballistic missile
+              interception time using Ansys STK software.
+            </p>
+          </div>
+          <div class="exp-chapter">
+            <span class="date">MAY 2014-JAN 2016</span>
+            <h2>Production Supervisor</h2>
+            <span class="position">U.S. Navy</span>
+            <p>
+              Delegated daily production workload to 23 Marines and Sailors
+              across four different workcenters for the timely repair of
+              Avionics equipment and timely calibration testing and verification
+              for support equipment loaned out to five squadrons.
+            </p>
+          </div>
+          <div class="exp-chapter">
+            <span class="date">AUG 2012-APR 2014</span>
+            <h2>Aviation Electronics Technician</h2>
+            <span class="position">U.S. Navy</span>
+            <p>
+              Diagnosed and repaired Avionics equipment, conducting thorough
+              troubleshooting and repairs at the component level. The Avionics
+              equipment included radar, communications, warning systems and
+              electronic countermeasure equipment.
+            </p>
+          </div>
+        </div>
+        <div class="get-hired">
+          <a href="/images/FSResumeFeb2024.pdf" download class="resume-button"
+            >My Resume</a
+          >
+        </div>
+      </div>
+    </div>
+    <!----------- Skills Section ---------->
+    <div id="skills">
+      <div class="skills-container">
+        <h1 class="sub-title">My Skills</h1>
+        <h3 class="skill-title">Languages</h3>
+        <div class="skills-list">
+          <div class="skill language">
+            <div>
+              <label for="html-progress">C++</label>
+              <span class="percentage">80%</span>
+            </div>
+            <progress id="html-progress" max="100" value="80">80%</progress>
+          </div>
+          <div class="skill language">
+            <div>
+              <label for="html-progress">Python</label>
+              <span class="percentage">80%</span>
+            </div>
+            <progress id="html-progress" max="100" value="80">80%</progress>
+          </div>
+          <div class="skill language">
+            <div>
+              <label for="html-progress">Java</label>
+              <span class="percentage">60%</span>
+            </div>
+            <progress id="html-progress" max="100" value="60">60%</progress>
+          </div>
+          <div class="skill language">
+            <div>
+              <label for="html-progress">JavaScript</label>
+              <span class="percentage">75%</span>
+            </div>
+            <progress id="html-progress" max="100" value="75">75%</progress>
+          </div>
+          <div class="skill language">
+            <div>
+              <label for="html-progress">HTML</label>
+              <span class="percentage">70%</span>
+            </div>
+            <progress id="html-progress" max="100" value="70">70%</progress>
+          </div>
+          <div class="skill language">
+            <div>
+              <label for="html-progress">CSS</label>
+              <span class="percentage">70%</span>
+            </div>
+            <progress id="html-progress" max="100" value="70">70%</progress>
+          </div>
+          <div class="skill language">
+            <div>
+              <label for="html-progress">SQL</label>
+              <span class="percentage">60%</span>
+            </div>
+            <progress id="html-progress" max="100" value="60">60%</progress>
+          </div>
+        </div>
+        <h3 class="skill-title">Frameworks</h3>
+        <div class="skills-list">
+          <div class="skill framework">
+            <div>
+              <label for="html-progress">React</label>
+              <span class="percentage">75%</span>
+            </div>
+            <progress id="html-progress" max="100" value="75">75%</progress>
+          </div>
+          <div class="skill framework">
+            <div>
+              <label for="html-progress">Express.js</label>
+              <span class="percentage">75%</span>
+            </div>
+            <progress id="html-progress" max="100" value="75">75%</progress>
+          </div>
+          <div class="skill framework">
+            <div>
+              <label for="html-progress">Node.js</label>
+              <span class="percentage">75%</span>
+            </div>
+            <progress id="html-progress" max="100" value="75">75%</progress>
+          </div>
+          <div class="skill framework">
+            <div>
+              <label for="html-progress">Passport.js</label>
+              <span class="percentage">45%</span>
+            </div>
+            <progress id="html-progress" max="100" value="45">45%</progress>
+          </div>
+          <div class="skill framework">
+            <div>
+              <label for="html-progress">Django</label>
+              <span class="percentage">40%</span>
+            </div>
+            <progress id="html-progress" max="100" value="40">40%</progress>
+          </div>
+        </div>
+        <h3 class="skill-title">Software Utilities</h3>
+        <div class="skills-list">
+          <div class="skill utilities">
+            <div>
+              <label for="html-progress">Git</label>
+              <span class="percentage">80%</span>
+            </div>
+            <progress id="html-progress" max="100" value="80">80%</progress>
+          </div>
+          <div class="skill utilities">
+            <div>
+              <label for="html-progress">MongoDB</label>
+              <span class="percentage">70%</span>
+            </div>
+            <progress id="html-progress" max="100" value="70">70%</progress>
+          </div>
+          <div class="skill utilities">
+            <div>
+              <label for="html-progress">Visual Studio Code</label>
+              <span class="percentage">80%</span>
+            </div>
+            <progress id="html-progress" max="100" value="80">80%</progress>
+          </div>
+          <div class="skill utilities">
+            <div>
+              <label for="html-progress">Docker</label>
+              <span class="percentage">40%</span>
+            </div>
+            <progress id="html-progress" max="100" value="40">40%</progress>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------- Projects Section ---------->
+    <div id="projects">
+      <div class="projects-container">
+        <h1 class="sub-title">My Projects</h1>
+        <p class="projects-blurb">
+          All projects are published on my
+          <a href="https://github.com/crookplusplus" target="_blank">Github</a>
+          page.
+        </p>
+        <div class="work-list">
+          <div class="work">
+            <div class="image-container">
+              <img src="/images/react_code.jpg" />
+            </div>
+            <div class="layer">
+              <h3>Acquaint</h3>
+              <p>
+                A MERN stack web application that generates a list of Real
+                Estate Agents' contact information based on a user's specified
+                location. The target audience is Loan Officers looking to market
+                their services to Real Estate Agents.
+              </p>
+              <a
+                href="https://github.com/crookplusplus/Agent-Contact-Generator"
+                target="_blank"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+            <div class="proj-tools">
+              <div class="tools">
+                <img src="/images/MongoDB.svg" alt="MongoDB" />
+                <img src="/images/express.svg" alt="Express.js" />
+                <img src="/images/React.svg" alt="React.js" />
+                <img src="/images/nodejs.svg" alt="Node.js" />
+              </div>
+            </div>
+          </div>
+          <div class="work">
+            <div class="image-container">
+              <img src="/images/compCode.jpg" alt="code" />
+            </div>
+            <div class="layer">
+              <h3>Concurrent Prefix Search</h3>
+              <p>
+                A C++ program that uses a trie data structure to store words
+                read in from an eBook. The program then uses a concurrent prefix
+                search to concurrently count the number of prefixes the word in
+                question has. The project leverages multithreading programming
+                while ensuring data integrity.
+              </p>
+              <a
+                href="https://github.com/crookplusplus/Concurrent-Prefix-Search-of-Dictionary-Tree"
+                target="_blank"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+            <div class="proj-tools">
+              <div class="tools">
+                <img src="/images/c++.svg" alt="C++" />
+                <img src="/images/linux.png" alt="Linux" />
+              </div>
+            </div>
+          </div>
+          <div class="work">
+            <div class="image-container">
+              <img src="/images/largeCode.jpg" alt="code" />
+            </div>
+            <div class="layer">
+              <h3>Simulated CrytoBroker</h3>
+              <p>
+                A C++ program that simulates a cryptocurrency broker with a
+                producer-consumer multithreaded scheme to share data. The
+                program employs semaphores to create mutex locks and a bounded
+                buffer to avoid deadlocks and race conditions.
+              </p>
+              <a
+                href="https://github.com/crookplusplus/CryptoBroker"
+                target="_blank"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+            <div class="proj-tools">
+              <div class="tools">
+                <img src="/images/c++.svg" alt="C++" />
+                <img src="/images/linux.png" alt="Linux" />
+              </div>
+            </div>
+          </div>
+          <div class="work">
+            <div class="image-container">
+              <img src="/images/terminal.jpg" alt="Microshell" />
+            </div>
+            <div class="layer">
+              <h3>Microshell</h3>
+              <p>
+                The Microshell is a lightweight, command-line shell program
+                implemented in C++. It offers basic shell functionality,
+                including executing commands, piping, and error handling. This
+                microshell serves as an educational project and provides
+                insights into working with processes, pipes, and command
+                execution in a Unix-like environment.
+              </p>
+              <a
+                href="https://github.com/crookplusplus/MicroShell"
+                target="_blank"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+            <div class="proj-tools">
+              <div class="tools">
+                <img src="/images/c++.svg" alt="C++" />
+                <img src="/images/linux.png" alt="Linux" />
+              </div>
+            </div>
+          </div>
+          <div class="work">
+            <div class="image-container">
+              <img src="/images/cVision.jpg" alt="computer vision" />
+            </div>
+            <div class="layer">
+              <h3>Computer Vision Filters</h3>
+              <p>
+                This repository contains three Computer Vision Programs: An
+                implementation of a Butterworth Lowpass Filter, An
+                implementation of a Butterworth Lowpass Filter with a manual
+                mask, and a scalar image resizing program.
+              </p>
+              <a
+                href="https://github.com/crookplusplus/ComputerVision"
+                target="_blank"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+            <div class="proj-tools">
+              <div class="tools">
+                <img src="/images/python.svg" alt="Python" />
+                <img src="/images/openCV.svg" alt="OpenCV" />
+                <img src="/images/numpy.svg" alt="Numpy" />
+              </div>
+            </div>
+          </div>
+          <div class="work">
+            <div class="image-container">
+              <img src="/images/memory.jpg" alt="memory" />
+            </div>
+            <div class="layer">
+              <h3>Memory Allocation Simulation</h3>
+              <p>
+                This project simulates memory allocation and deallocation in an
+                operating system, evaluating two memory allocation techniques:
+                First Fit and Best Fit. The simulation employs a linked list to
+                manage memory usage.
+              </p>
+              <a
+                href="https://github.com/crookplusplus/MemorySimulator"
+                target="_blank"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+            <div class="proj-tools">
+              <div class="tools">
+                <img src="/images/c++.svg" alt="C++" />
+                <img src="/images/linux.png" alt="Linux" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------- Services Section ---------->
+    <div id="services">
+      <div class="services-container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <span class="material-symbols-outlined">screenshot_monitor</span>
+            <h2>Frontend</h2>
+            <p>
+              Transforming design concepts into interactive and user-friendly
+              web interfaces.
+            </p>
+          </div>
+          <div>
+            <span class="material-symbols-outlined">add_ad</span>
+            <h2>Backend</h2>
+            <p>
+              Implementing RESTful APIs and database architectures to support
+              your frontend applications.
+            </p>
+          </div>
+          <div>
+            <span class="material-symbols-outlined">devices</span>
+            <h2>Software Dev</h2>
+            <p>
+              Bringing ideas to life through the creation of innovative and
+              high-performance software products.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------- Contact Section ---------->
+    <div id="contact">
+      <div class="contact-container">
+        <h1 class="sub-title">Let's Connect!</h1>
+        <div class="my-info">
+          <div class="info">
+            <i class="fa-solid fa-paper-plane"></i>
+            <span>crookplusplus<br />@gmail.com</span>
+          </div>
+          <div class="info">
+            <a href="https://www.linkedin.com/in/chris-rook/" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <span>LinkedIn</span>
+          </div>
+          <div class="info">
+            <a href="https://github.com/crookplusplus" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <span>Github</span>
+          </div>
+        </div>
+        <div class="contact-card">
+          <p>
+            Whether it's a full-time position, freelance work or side projects,
+            I'm passionate about crafting innovative solutions and bringing
+            ideas to life. Let's collaborate and build something amazing
+            together!
+          </p>
+          <div class="half-card">
+            <form id="form" method="POST">
+              <input
+                type="hidden"
+                name="access_key"
+                value="7cc7c78d-bf03-4618-9b8c-0274b040ac48"
+              />
+              <input
+                type="hidden"
+                name="subject"
+                value="New Submission from Web3Forms"
+              />
+              <input
+                type="checkbox"
+                name="botcheck"
+                id=""
+                style="display: none"
+              />
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn">Submit</button>
+              <div id="success-message"><i class="fa-solid fa-check"></i></div>
+              <div id="error-message">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------Copyright-->
+    <div class="copyright">
+      <div class="container">
+        <p>
+          &copy; 2024 Chris Rook. Made with <i class="fa-solid fa-heart"></i>!
+          All rights reserved.
+        </p>
+      </div>
+    </div>
+    <script>
+      var sideMenu = document.getElementById("side-menu");
+      function openMenu() {
+        sideMenu.style.right = "0px";
+        setTimeout(function() {
+          document.body.addEventListener("click", closeMenuOnClickOutside);
+        }, 100);
+      }
+      function closeMenu() {
+        sideMenu.style.right = "-200px";
+        document.body.removeEventListener("click", closeMenuOnClickOutside);
+      }
+
+      function closeMenuOnClickOutside(e){
+        if(!sideMenu.contains(e.target)){
+          closeMenu();
+        }
+      }
+    </script>
+    <script>
+      const progressBars = document.querySelectorAll("progress");
+      const percentageSpans = document.querySelectorAll(".percentage");
+
+      progressBars.forEach((progress, index) => {
+        var filledWidth = (progress.value / progress.max) * 100;
+
+        percentageSpans[index].style.right = `${100 - filledWidth}%`;
+      });
+    </script>
+    <script>
+      const form = document.getElementById("form");
+      const successMessage = document.getElementById("success-message");
+      const errorMessage = document.getElementById("error-message");
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const formData = new FormData(form);
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+        successMessage.innerHTML = "";
+        errorMessage.innerHTML = "";
+
+        fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          body: json,
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+        })
+          .then(async (response) => {
+            let json = await response.json();
+            if (response.status == 200) {
+              successMessage.innerHTML = json.message;
+              successMessage.style.display = "block";
+            } else {
+              errorMessage.innerHTML = json.message;
+              errorMessage.style.display = "block";
+            }
+          })
+          .catch((error) => {
+            console.log(error);
+            errorMessage.innerHTML = "Something went wrong!";
+            errorMessage.style.display = "block";
+          })
+          .then(function () {
+            form.reset();
+            setTimeout(() => {
+              successMessage.style.display = "none";
+              errorMessage.style.display = "none";
+            }, 5000);
+          });
+      });
+    </script>
+  </body>
+</html>
